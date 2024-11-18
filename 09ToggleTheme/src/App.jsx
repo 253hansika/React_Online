@@ -46,3 +46,16 @@ function App() {
 }
 
 export default App;
+
+``` to changes in tailwind config
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+```;
